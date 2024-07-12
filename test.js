@@ -1,4 +1,4 @@
-
+// Sir, I did the JS Events Exercises in the HTML File, you can check from there.
 
 // JS String
 // Excercise 1
