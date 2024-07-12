@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./test.js"></script>
+     
+</head>
+
+<body>
+     <div onMouseOver="this.style.backgroundColor = '#0000FF';"></div> 
+    <p id="Demo">
+      
+    </p>
+    <button onclick="document.getElementById('Demo').innerHTML='Button Clicked!'">
+         Click me    
+</button>
+  
+<p id="Demo1">
+   
+</p>
+<p>oninput function.</p>
+
+<input type="text" id="myInput" oninput="myFunction()">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text = document.getElementById("myInput").value;
+  document.getElementById("demo").innerHTML = "You wrote: " + text;
+}
+</script>
+</body>
+</html>
