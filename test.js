@@ -11,9 +11,12 @@ text1[0]="A";
 console.log(text1);
 
 // Excercise 3
-let text2=document.getElementById('Demo1').innerHTML=
-'This is p1'+
-'This is p2';
+let greeting = "Hello";
+let name = "John";
+
+let result = greeting + name;
+
+console.log(result);
 
 // JS Methods
 // Excercise 1
@@ -23,7 +26,7 @@ console.log(x.toUpperCase());
 // Excercise 2
 let x1='    Hello World    ';
 let y=x1.trim()
-console.log(x.length);
+console.log(x1.length);
 console.log(y.length);
 
 // Excercise 3
@@ -34,7 +37,7 @@ console.log(replace);
 // JS String Search
 // Excercise 1
 let text4='Hello, World World';
-console.dir(text.indexOf('World'));
+console.dir(text4.indexOf('World'));
 
 // Excercise 2
 let text5='Hello World';
@@ -87,7 +90,7 @@ console.log(y5);
 
 // Excercise 2
 let d=6n;
-let e=Number(x)+3;
+let e=Number(d)+3;
 console.log(e);
 
 // Excercise 3
